@@ -120,6 +120,14 @@
     border-radius: 15px;
     transition: 1s;
 }
+@media (max-width:746px){
+.images img:hover{
+    width: 315px;
+    height: 185px;
+    border-radius: 15px;
+    transition: 1s;
+}
+}
 
 /* Target the scrollbar */
 ::-webkit-scrollbar {
