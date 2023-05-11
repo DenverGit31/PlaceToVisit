@@ -70,6 +70,16 @@
     transition: 1s; 
     color: white; 
 }
+@media (max-width:746px){
+.labels:hover{
+        width: 100%;
+        margin-top: 15px;
+        background-color: #202020bd;
+        border-radius: 15px; 
+        transition: 1s; 
+        color: white; 
+    }
+}
 @media (max-width:746px) {
     .labels{
 
@@ -79,14 +89,7 @@
         backdrop-filter: blur(8px);
         border-radius: 15px;   
     }
-    .labels:hover{
-        width: 100%;
-        margin-top: 15px;
-        background-color: #202020bd;
-        border-radius: 15px; 
-        transition: 1s; 
-        color: white; 
-    }
+    
 }
 @media (max-width:1080px) {
     .labels{
