@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded',function(){
     function func1(a){
         a.preventDefault()
         const createbg = document.querySelector('.body')
-        createbg.style.backgroundImage ='url(../assets/img1.jpg)';
+        createbg.style.backgroundImage ='url(../assets/Img1.jpg)';
         createbg.style.opacity = '1'
 
 
